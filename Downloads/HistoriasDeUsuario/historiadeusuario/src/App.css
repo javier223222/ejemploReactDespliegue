@@ -114,6 +114,8 @@ body{
 }
 .imagen-principal img{
   padding-top: 0.5rem;
+  width: 420px;
+  height: 220px;
 
 }
 .navbar{
@@ -431,4 +433,10 @@ body{
    .contanedor-img {
     margin-top: -150px;
    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1200px){
+  .imagen-principal img{
+    width: 611px;
+    height: 329px;
+  }
 }

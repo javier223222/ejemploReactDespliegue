@@ -5,7 +5,7 @@ class Prototipo extends React.Component{
     }
     render(){
         return(
-            <div className="container px-5">
+            <div className="container px-5 " id="prototipo">
              <div className="row gx-5 align-items-center justify-content-center">
              <div className=" contanedor-img col-md-9 col-lg-6 order-1 order-lg-0">
                 <div className="content-skewed content-skewed-right">

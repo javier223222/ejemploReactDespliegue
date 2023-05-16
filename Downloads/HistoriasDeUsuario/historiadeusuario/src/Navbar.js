@@ -19,16 +19,16 @@ class Navbar extends React.Component{
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Antecedentes</a>
+          <a class="nav-link active" aria-current="page" href="#datos">Antecedentes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Problematica</a>
+          <a class="nav-link" href="#problematicaDeLaPagina">Problemática</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Solucion</a>
+          <a class="nav-link" href="#solucion">Solución</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Modelos</a>
+          <a class="nav-link " href="#prototipo" tabindex="-1" aria-disabled="true">Modelos</a>
         </li>
       </ul>
     </div>

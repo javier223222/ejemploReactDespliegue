@@ -1,4 +1,5 @@
 import React from "react";
+import Icono from "./Icono";
 class Card extends React.Component{
     constructor(props){
         super(props)
@@ -8,11 +9,9 @@ class Card extends React.Component{
             <div className="contenedor-carta ">
                <div className="card" >
             <div className="card-body">
-            <div className="text-center carta">
-            <h5 className="card-title text-center">{this.props.imagen}</h5>
-            </div>
-              <h6 className="card-subtitle mb-2 text-muted">{this.props.subtitulo}</h6>
-              <p className="card-text">{this.props.explicacion}</p>
+            <Icono imagen={this.props.imagen}></Icono>
+            <h6 className="card-subtitle mb-2 text-muted">{this.props.subtitulo}</h6>
+            <p className="card-text">{this.props.explicacion}</p>
         
             </div>
           </div>

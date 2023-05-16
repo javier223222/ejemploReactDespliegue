@@ -5,7 +5,7 @@ class Problematica extends React.Component{
     }
     render(){
         return(
-            <div className='bg-dark py-10'>
+            <div className='bg-dark py-10 ' id='problematicaDeLaPagina'>
                     <div className="container-fluid problema text-center">
   <div className="row ">
   <div className="col ">
@@ -16,7 +16,7 @@ class Problematica extends React.Component{
     </span>
     </div>
     <div className='ms-4'>
-    <h1 >Mal porceso de prestamos</h1>
+    <h1 >Mal proceso de préstamos</h1>
     <p>La biblioteca no lleva un control de los </p>
     
     </div>
