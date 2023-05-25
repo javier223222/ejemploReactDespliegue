@@ -1,0 +1,109 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media only screen and (max-width: 1600px) and (min-width:1300px){
+  .iconos{
+    padding-left: 25rem !important;
+    padding-right: 25rem !important;
+    }
+    .flechas{
+      padding-left: 12rem !important;
+    padding-right: 12rem !important;
+    }
+}
+@media only screen and (max-width: 1299px ) and (min-width:1200px) {
+  .iconos{
+    padding-left: 20rem !important;
+    padding-right: 20rem !important;
+    }
+    .flechas{
+      padding-left: 7rem !important;
+    padding-right: 7rem !important;
+    }
+}
+@media only screen and (max-width: 410px ) and (min-width:380px) {
+  
+    .flechas{
+      padding-left: 5rem !important;
+    padding-right: 5rem !important;
+    }
+}
+@media only screen and (max-width: 379px ) and (min-width:300px) {
+  
+  .flechas{
+    padding-left: 3rem !important;
+  padding-right: 3rem !important;
+  }
+}
+@media only screen and (max-width: 290px ) and (min-width:230px) {
+  
+  .flechas{
+    padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  }
+}
+@media only screen and (max-width: 220px ) and (min-width:190px) {
+  
+  .flechas{
+    padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  }
+}
+@media only screen and (max-width: 185px ) and (min-width:100px) {
+  
+
+}
+
+.principal{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.numbers{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.10rem;
+}
+.timer-container p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.principal2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.10rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
